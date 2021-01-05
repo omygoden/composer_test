@@ -1,0 +1,21 @@
+{
+    "name": "chenzyceshi/test",
+    "description": "这是一个测试包",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ceshi",
+            "email": "99@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "Test\\":"src/"
+        }
+    }
+}
